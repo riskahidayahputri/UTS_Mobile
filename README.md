@@ -6,9 +6,15 @@ NIM : 312210102
 
 Kelas : TI.22.B1
 
-Tugas : UTS Pemrograman Mobile 1
+Mata Kuliah : UTS Pemrograman Mobile 1
 
-Main activity
+Tugas : Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan urutan angka fibonacci, lalu dilengkapi dengan fitur toast
+
+Berikut ini adalah link video aplikasi yang dijalankan pada device [Lebih lengkap nya terdapat pada video berikut ini](https://youtu.be/8g4pc2CwqE0?si=h4bQHx19olYGWOZ5)
+
+Source Code:
+
+Main_activity.java (dibuat dengan menggunakan design pada android studio) :
 ```java
 package com.co.id.tugasfibo;
 
@@ -99,8 +105,23 @@ public class MainActivity extends AppCompatActivity {
     }
 }
 ```
+Penjelasan MainActivity.java :
 
-activity main
+* untuk count dan countFibo langsung kita isi dengan nilai 0 (integer)
+
+* masing masing diberi sesuai tipe data dan kita set visibility nya public
+
+* masing masing diberi sesuai tipe data dan kita set visibility nya public
+
+* lalu dihubungkan menggunakan tipe data dan juga id yang ada ada activity_main.xml
+
+* kemudian kita beri event atau aksi yang akan dilakukan ketika tombol tombol diklik
+*saat tombol hitung diklik maka akan menjalankan fungsi calculate
+*saat tombol reset diklik maka akan menjalankan fungsi reset
+*saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibona
+
+
+activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
