@@ -116,11 +116,30 @@ Penjelasan MainActivity.java :
 * lalu dihubungkan menggunakan tipe data dan juga id yang ada ada activity_main.xml
 
 * kemudian kita beri event atau aksi yang akan dilakukan ketika tombol tombol diklik
-*saat tombol hitung diklik maka akan menjalankan fungsi calculate
-*saat tombol reset diklik maka akan menjalankan fungsi reset
-*saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibona
+  
+* saat tombol hitung diklik maka akan menjalankan fungsi calculate
 
+* saat tombol reset diklik maka akan menjalankan fungsi reset
 
+* saat tombol tampilkan toast diklik maka akan menampilkan toast dengan data angka fibonacci
+
+* saat fungsi dijalankan, maka akan menambah properti count dengan nilai 1
+
+*kemudian count yang sudah ditambah , maka akan dijadikan nilai dalam menjalankan fungsi calculateFibo lalu akan menerima data baru yang telah diolah di fungsi tersebut dan kemusian dimasukkan ke properti countFibo
+
+*tampilkan jumlah klik tombol hitung dan juga angka fibonacci
+
+*kita tampilkan toast setiap tombol count diklik sebanyak 5 kali
+
+*untuk toastA.cancel() bermaksud agar toast yang sudah ada langsung dihentikan karena toast paling cepat akan hilang dalam dua detik, jika belum dua detik dan ada toast yang aktif maka toast yang baru akan masuk dalam antrian, dan akan dijalankan berurut setelah dua detik dengan cancel ini maka kita hentikan toast yang ada
+
+*lalu jalankan toast.show() agar langsung kita tampilkan toast yang baru
+
+* di fungsi calculateFibo angka count yang dikirimkan dari fungsi calculate akan diolah sehingga akan me return angka fibonacci
+
+* disini semua properti angka dan textview akan direset
+
+  
 activity_main.xml
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
@@ -203,3 +222,15 @@ activity_main.xml
 
 </RelativeLayout>
 ```
+
+Penjelasan :
+
+1. kita isi relative layout dengan 2 linear layout
+2. linear layout1 diisi dengan 3 textview:
+    * nama + nim
+    * jumlah klik pada tombol hitung
+    * angka fibonacci terakhir
+3. linear layout 2 berisi :
+    * button hitung
+    * button reset
+    * dan button toast
