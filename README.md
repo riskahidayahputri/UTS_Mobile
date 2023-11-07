@@ -9,7 +9,7 @@ Kelas : TI.22.B1
 Tugas : UTS Pemrograman Mobile 1
 
 Main activity
-```
+```java
 package com.co.id.tugasfibo;
 
 import androidx.appcompat.app.AppCompatActivity;
