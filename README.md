@@ -10,7 +10,7 @@ Mata Kuliah : UTS Pemrograman Mobile 1
 
 Tugas : Membuat tombol yang setiap diklik dapat bertambah angkanya, namun dengan urutan angka fibonacci, lalu dilengkapi dengan fitur toast
 
-Berikut ini adalah link video aplikasi yang dijalankan pada device, cek videonya [di sini](https://youtu.be/8g4pc2CwqE0?si=h4bQHx19olYGWOZ5)
+Berikut ini adalah link video aplikasi yang dijalankan pada device, cek videonya [di sini](https://youtube.com/shorts/Ah8EyZThbpA?feature=share)
 
 Source Code:  
 * activity_main.Xml (dibuat dengan design pada android studio):
